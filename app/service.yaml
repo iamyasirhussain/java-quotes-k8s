@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: java-quotes
+spec:
+  selector:
+    app: java-quotes
+  ports:
+    - port: 80
+      targetPort: 8000
