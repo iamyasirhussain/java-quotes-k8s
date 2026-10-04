@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-quotes
-          image: hussainy/java-quotes-app:v1
+          image: hussainy/java-quotes-app:2
           ports:
             - containerPort: 8000
